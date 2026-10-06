@@ -18,20 +18,18 @@ export interface SiteConfig {
   defaultLocale: string;
 }
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tatariwiki.top";
+
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
-  social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
-  },
+  name: "Tatari Wiki",
+  shortName: "Tatari",
+  logoText: "T",
+  tagline: "Walkthrough, Puzzles, Clues & Horror Guides",
+  description: "Fan-made Tatari wiki covering the full walkthrough, puzzle solutions, clues, locations, achievements and story of the Japanese paranormal detective horror game.",
+  url: siteUrl,
+  supportEmail: `support@${new URL(siteUrl).hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/1847420/Tatari/",
+  heroVideoId: "ratWpxMwe2M", // Tatari gameplay walkthrough (full game, all puzzles)
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
 };
