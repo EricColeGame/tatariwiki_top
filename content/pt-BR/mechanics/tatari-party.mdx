@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Mecânicas de Party Tatari Explicadas: Como Funcionam Sistemas de Party Baseados em Maldições nos Jogos",
+  description: "Aprenda como funcionam as mecânicas de party tatari nos jogos: acúmulo de maldições, janelas de purificação, papéis de party e táticas de risco e recompensa para lutas com muita maldição.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+Poucas mecânicas de jogo punem a ganância de forma tão elegante quanto uma maldição. No folclore japonês, *tatari* (祟り) é a retribuição que se segue a um erro não corrigido — um espírito ofendido, um tabu quebrado, uma dívida paga em infortúnio. A mecânica de **party tatari** empresta essa lógica e a entrega a um grupo de jogadores: cada vantagem que você toma deixa uma marca, e essas marcas eventualmente cobram seu preço.
+
+Uma **party tatari**, portanto, não se trata tanto de maximizar dano, mas de gerenciar dívida. Se você já viu uma luta contra chefe virar de confortável para catastrófica em um único turno, provavelmente já encontrou esse padrão de design — só não tinha um nome para ele.
+
+Este guia detalha como sistemas de party movidos por maldições são estruturados, como o folclore por trás deles molda suas regras e o que jogadores experientes fazem de diferente quando o contador começa a subir.
+
+## Tatari no Folclore: De Onde Vem a Mecânica de Maldição
+
+Na tradição religiosa japonesa, tatari descreve o infortúnio enviado por um kami ou por um espírito que foi injustiçado e nunca apaziguado. Espíritos vingativos — conhecidos como *goryō* — acreditava-se que traziam pragas, fomes e desastres naturais quando não eram honrados, e as cortes do período Heian respondiam com cerimônias destinadas a acalmá-los. Para um contexto mais profundo, a [visão geral da tradição de goryō e espíritos vingativos](https://en.wikipedia.org/wiki/Gory%C5%8D) é um bom ponto de partida.
+
+O que importa para o design de jogos é a estrutura subjacente: uma maldição não é um debuff aleatório. É um *relacionamento* que você pode reparar, ignorar ou piorar. Ritos de purificação, oferendas, talismãs e visitas a santuários existem todos nesse mesmo espaço conceitual, e designers pegam essas ideias quase inteiras quando constroem um sistema de maldição.
+
+| Conceito do folclore | Tradução típica para mecânica | O que os jogadores veem |
+|---|---|---|
+| Tatari (maldição de uma parte injustiçada) | Debuff acumulativo que cresce com as ações dos jogadores | Um contador ou ícone que sobe |
+| Goryō (espírito vingativo) | Chefe ou elite que escala com a maldição | Novas fases em limiares definidos |
+| Harae / purificação | Habilidade de limpeza, checkpoint de santuário, conjuração de ritual | Uma ação cronometrada que remove ou converte acúmulos |
+| Ofuda / talismãs | Proteções consumíveis e imunidades de uso único | Itens limitados em recarga |
+| Oferendas e apaziguamento | Gasto de recursos para adiar a punição | Custa moeda, itens ou um turno inteiro |
+| Tabu ou voto quebrado | Ações que adicionam acúmulos instantaneamente | Gatilhos ocultos descobertos por testes |
+
+O retorno do design é tanto narrativo quanto mecânico. Quando a punição é enquadrada como algo que a party *causou*, um wipe parece uma lição em vez de um lance de dados.
+
+## Como Funciona um Sistema de Party Tatari: O Loop Central
+
+A maioria das implementações dessa mecânica segue um loop de quatro batidas, e quando você consegue nomear as batidas, a luta deixa de parecer aleatória. A party acumula maldição, o jogo avisa que um limiar está próximo, o grupo decide se gasta recursos em limpeza, e então a dívida acumulada é cobrada.
+
+| Fase | O que acontece | Sinal que os jogadores aprendem a ler |
+|---|---|---|
+| Acúmulo | A maldição cresce com dano causado, itens usados ou tempo decorrido | Contador, cor da aura, mudança no áudio ambiente |
+| Aviso | Um limiar se aproxima e o chefe telegrafa | Fala de diálogo, vinheta na tela, indicativo de animação |
+| Decisão | A party escolhe limpar, transferir ou forçar dano | Uma janela curta de purificação se abre |
+| Cobrança | Acúmulos não limpos são resolvidos como dano explosivo ou debuffs | Ataque roteirizado que ignora algumas defesas |
+
+Há três variantes amplas que vale a pena reconhecer, porque elas exigem hábitos diferentes:
+
+- **Pool compartilhado.** Um contador cobre o grupo inteiro. A limpeza é uma decisão de equipe, e um jogador descuidado pode afundar todo mundo.
+- **Acúmulos por personagem.** Cada membro carrega sua própria maldição, e em alguns designs os acúmulos de um membro caído são transferidos para os sobreviventes. Posicionamento e autogerenciamento importam mais do que coordenação de grupo.
+- **Maldição espelhada.** Tudo o que a party inflige volta amplificado. Janelas agressivas de burst são, na prática, um empréstimo contra um turno futuro.
+
+Em todas as variantes, a mecânica existe para converter produção bruta de dano em uma *decisão*. Uma party tatari que só sabe bater mais forte eventualmente perde para o próprio impulso.
+
+## Acúmulo de Maldição e Timing de Purificação
+
+Os limiares são onde a maioria das runs é decidida. Designers geralmente associam efeitos escalonados a faixas de acúmulo, em vez de uma única penalidade, então a curva de perigo é suave até que deixa de ser. As faixas abaixo refletem padrões que jogadores costumam relatar em encontros com muita maldição; os números exatos variam por jogo, mas o formato da curva é notavelmente consistente.
+
+| Faixa de acúmulo | Efeito comum | Resposta típica |
+|---|---|---|
+| 0–2 | Penalidades cosméticas ou insignificantes | Ignore e mantenha o dano constante |
+| 3–5 | Pequenas reduções de atributos, leve dano residual | Limpe apenas se houver uma janela livre |
+| 6–8 | Penalidades escalonadas, ações extras do inimigo | Priorize a limpeza antes do próximo limiar |
+| 9+ | Punição explosiva, possível derrota instantânea | Limpeza de emergência, imunidade ou salto de fase |
+
+### Janelas de purificação
+
+O timing importa mais do que o poder bruto de limpeza. A maioria dos sistemas resolve maldições em um tick fixo, o que significa que limpar *antes* desse tick vale muito mais do que limpar depois. Fique atento à animação de telegraph, e não apenas à contagem de acúmulos.
+
+### Retornos decrescentes e recargas
+
+Muitas implementações tornam a limpeza repetida progressivamente mais cara — custos crescentes, recargas mais longas ou eficácia reduzida. Isso empurra as parties para alternar limpadores em vez de depender de um único personagem de suporte, e pune o hábito de limpar por pânico cada acúmulo individual.
+
+## Papéis e Composição de Party para Lutas com Muita Maldição
+
+Uma party tatari vive ou morre pela composição. Como a punição chega em um cronograma em vez de aleatoriamente, você pode se planejar para ela — e esse planejamento geralmente vale mais do que alguns pontos percentuais de dano.
+
+| Papel | Função principal | O que priorizar |
+|---|---|---|
+| Limpador / suporte | Remover ou converter acúmulos | Limpeza com a menor recarga, cobertura de grupo |
+| Ritualista / debuffer | Adiar limiares, enfraquecer a cobrança | Controle de ordem de turno, efeitos de lentidão e atraso |
+| Causador de dano | Avançar fases durante janelas seguras | Burst concentrado no início em vez de rampas lentas |
+| Âncora / tanque | Absorver o impacto da cobrança | Alta mitigação, opções de autolimpeza |
+| Batedor / utilidade | Revelar gatilhos ocultos | Habilidades de informação, economia de itens |
+
+Dois limpadores geralmente são mais seguros do que um, especialmente em sistemas de pool compartilhado, onde uma única recarga falha pode encerrar a tentativa. Se seu roster força uma escolha, prefira consistência a pico de desempenho: uma limpeza medíocre que está sempre disponível supera uma poderosa que não está.
+
+## Erros Comuns e Táticas de Risco e Recompensa
+
+Alimentar a maldição é uma estratégia legítima. Encurtar uma luta significa menos ticks de cobrança no total, então a ganância controlada pode ser ideal — mas ela tem um teto rígido, e relatos da comunidade mostram consistentemente que a maioria dos wipes acontece um limiar depois do que precisava.
+
+| Erro | Por que prejudica | Hábito melhor |
+|---|---|---|
+| Limpar no momento em que um acúmulo aparece | Desperdiça recargas e itens em faixas inofensivas | Limpe nos limiares, não com um acúmulo |
+| Ignorar o contador durante janelas de burst | A cobrança cai no meio do combo e dá wipe no grupo | Defina uma parada rígida na faixa de aviso |
+| Transferir maldição cegamente para um aliado | Transferências muitas vezes amplificam no receptor | Verifique imunidade antes de passar qualquer coisa |
+| Acumular itens de purificação para "depois" | As lutas geralmente terminam antes de o depois chegar | Gaste um consumível por ciclo de limiar |
+| Construir apenas dano | Não existe resposta quando a maldição é cobrada | Reserve pelo menos um espaço de limpeza |
+
+Uma regra simples de risco e recompensa ajuda: force dano enquanto o contador estiver nas faixas baixas, e mude para gasto de recursos no instante em que cruzar para a faixa punitiva. Trate o telegraph de aviso como um prazo real, não como uma sugestão.
+
+## Perguntas Frequentes
+
+**O que exatamente é uma mecânica de party tatari?**
+É um sistema baseado em party em que as ações dos jogadores acumulam uma maldição que eventualmente é cobrada como punição. Uma party tatari precisa decidir quando gastar recursos em purificação versus quando forçar dano e aceitar a dívida.
+
+**Você deve limpar cedo ou acumular muito para uma janela maior de dano?**
+Limpe nos limiares, não no primeiro acúmulo. Faixas baixas geralmente são inofensivas, então limpar cedo desperdiça recargas. Assim que cruzar para a faixa punitiva, limpe imediatamente antes do tick de cobrança.
+
+**Quantos limpadores uma party tatari deve levar?**
+Dois é a base confortável para a maioria do conteúdo em grupo, particularmente em sistemas de pool compartilhado. Um limpador pode funcionar se a luta for curta e a recarga da limpeza for curta o suficiente para cobrir todos os limiares.
+
+**Tatari é baseado em folclore real?**
+Sim. O termo se refere à retribuição de um espírito ou divindade ofendida na tradição japonesa, e rituais de purificação, talismãs e oferendas de apaziguamento têm contrapartes históricas reais que os jogos adaptam para mecânicas.

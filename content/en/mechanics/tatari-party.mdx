@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Tatari Party Mechanics Explained: How Curse-Based Party Systems Work in Games",
+  description: "Learn how tatari party mechanics work in games: curse stacking, purification windows, party roles, and risk-reward tactics for curse-heavy fights.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+Few game mechanics punish greed as elegantly as a curse. In Japanese folklore, *tatari* (祟り) is the retribution that follows a wrong left unaddressed — an offended spirit, a broken taboo, a debt that gets paid in misfortune. A **tatari party** mechanic borrows that logic and hands it to a group of players: every advantage you take leaves a mark, and those marks eventually come due.
+
+A **tatari party** is therefore less about maximizing damage and more about managing debt. If you have ever watched a boss fight flip from comfortable to catastrophic in a single turn, you have probably already met this design pattern — you just did not have a name for it.
+
+This guide breaks down how curse-driven party systems are structured, how the folklore behind them shapes their rules, and what experienced players do differently once the counter starts climbing.
+
+## Tatari in Folklore: Where the Curse Mechanic Comes From
+
+In Japanese religious tradition, tatari describes misfortune sent by a kami or by a spirit that was wronged and never appeased. Vengeful spirits — known as *goryō* — were believed to bring plagues, famines, and natural disasters when they went unhonored, and Heian-period courts responded with ceremonies intended to soothe them. For deeper background, the [overview of goryō and vengeful spirit tradition](https://en.wikipedia.org/wiki/Gory%C5%8D) is a solid starting point.
+
+What matters for game design is the underlying structure: a curse is not a random debuff. It is a *relationship* you can repair, ignore, or make worse. Purification rites, offerings, talismans, and shrine visits all exist in that same conceptual space, and designers lift those ideas almost wholesale when they build a curse system.
+
+| Folklore concept | Typical mechanic translation | What players see |
+|---|---|---|
+| Tatari (curse from a wronged party) | Stacking debuff that grows from player actions | A counter or icon that ticks upward |
+| Goryō (vengeful spirit) | Boss or elite that scales with the curse | New phases at set thresholds |
+| Harae / purification | Cleansing skill, shrine checkpoint, ritual cast | A timed action that strips or converts stacks |
+| Ofuda / talismans | Consumable wards and one-use immunities | Limited items on a cooldown |
+| Offerings and appeasement | Resource spend to delay punishment | Costs currency, items, or an entire turn |
+| Taboo or broken vow | Actions that instantly add stacks | Hidden triggers discovered through testing |
+
+The design payoff is narrative as much as mechanical. When the punishment is framed as something the party *caused*, a wipe feels like a lesson instead of a dice roll.
+
+## How a Tatari Party System Works: The Core Loop
+
+Most implementations of this mechanic follow a four-beat loop, and once you can name the beats, the fight stops feeling random. The party accrues curse, the game warns that a threshold is close, the group decides whether to spend resources on cleansing, and then the accumulated debt resolves.
+
+| Phase | What happens | Signal players learn to read |
+|---|---|---|
+| Accrual | Curse builds from damage dealt, items used, or elapsed time | Counter, aura color, shift in ambient audio |
+| Warning | A threshold approaches and the boss telegraphs | Dialogue line, screen vignette, animation tell |
+| Decision | Party chooses to cleanse, transfer, or push damage | A short purification window opens |
+| Collection | Uncleansed stacks resolve as burst damage or debuffs | Scripted attack that ignores some defenses |
+
+There are three broad variants worth recognizing, because they demand different habits:
+
+- **Shared pool.** One counter covers the whole group. Cleansing is a team decision, and one careless player can sink everyone.
+- **Per-character stacks.** Each member carries their own curse, and in some designs a fallen member's stacks transfer to survivors. Positioning and self-management matter more than group coordination.
+- **Mirrored curse.** Whatever the party inflicts comes back amplified. Aggressive burst windows are effectively borrowing against a future turn.
+
+In every variant, the mechanic exists to convert raw damage output into a *decision*. A tatari party that only knows how to hit harder will eventually lose to its own momentum.
+
+## Curse Stacking and Purification Timing
+
+Thresholds are where most runs are decided. Designers usually attach escalating effects to stack bands rather than a single penalty, so the danger curve is smooth right up until it is not. The bands below reflect patterns players commonly report across curse-heavy encounters; exact numbers vary by game, but the shape of the curve is remarkably consistent.
+
+| Stack band | Common effect | Typical response |
+|---|---|---|
+| 0–2 | Cosmetic or negligible penalties | Ignore it and keep damage uptime |
+| 3–5 | Minor stat reductions, small chip damage | Cleanse only if a window is free |
+| 6–8 | Escalating penalties, extra enemy actions | Prioritize cleanse before the next threshold |
+| 9+ | Burst punishment, possible instant loss | Emergency cleanse, immunity, or phase skip |
+
+### Purification windows
+
+Timing matters more than raw cleanse power. Most systems resolve curses on a fixed tick, which means cleansing *before* that tick is worth far more than cleansing after it. Watch for the telegraph animation rather than the stack count alone.
+
+### Diminishing returns and cooldowns
+
+Many implementations make repeated cleansing progressively more expensive — rising costs, longer cooldowns, or reduced effectiveness. That pushes parties toward alternating cleansers instead of leaning on one support character, and it punishes the habit of panic-cleaning every single stack.
+
+## Party Roles and Composition for Curse-Heavy Fights
+
+A tatari party lives or dies on composition. Because the punishment arrives on a schedule rather than at random, you can plan for it — and that planning is usually worth more than a few percentage points of damage.
+
+| Role | Primary job | What to prioritize |
+|---|---|---|
+| Cleanser / support | Remove or convert stacks | Shortest cooldown cleanse, group coverage |
+| Ritualist / debuffer | Delay thresholds, weaken the resolve | Turn-order control, slow and delay effects |
+| Damage dealer | Push phases during safe windows | Front-loaded burst rather than slow ramps |
+| Anchor / soak | Absorb the resolve hit | High mitigation, self-cleanse options |
+| Scout / utility | Reveal hidden triggers | Information skills, item economy |
+
+Two cleansers is generally safer than one, especially in shared-pool systems where a single failed cooldown can end the attempt. If your roster forces a choice, favor consistency over peak throughput: a mediocre cleanse that is always available beats a powerful one that is not.
+
+## Common Mistakes and Risk-Reward Tactics
+
+Feeding the curse is a legitimate strategy. Shortening a fight means fewer resolve ticks overall, so controlled greed can be optimal — but it has a hard ceiling, and community reports consistently show that most wipes happen one threshold later than they needed to.
+
+| Mistake | Why it hurts | Better habit |
+|---|---|---|
+| Cleansing the moment a stack appears | Wastes cooldowns and items on harmless bands | Cleanse at thresholds, not at one stack |
+| Ignoring the counter during burst windows | Resolve lands mid-combo and wipes the group | Set a hard stop at the warning band |
+| Blindly transferring curse to an ally | Transfers often amplify on the receiver | Check immunity before passing anything |
+| Hoarding purification items for "later" | Fights usually end before later arrives | Spend one consumable per threshold cycle |
+| Building only damage | No answer exists when the curse resolves | Reserve at least one cleanse slot |
+
+A simple risk-reward rule helps: push damage while the counter sits in the low bands, and switch to resource spending the instant you cross into the punishing band. Treat the warning telegraph as a genuine deadline, not a suggestion.
+
+## FAQ
+
+**What exactly is a tatari party mechanic?**
+It is a party-based system where player actions accumulate a curse that eventually resolves as punishment. A tatari party must decide when to spend resources on purification versus when to push damage and accept the debt.
+
+**Should you cleanse early or stack high for a bigger damage window?**
+Cleanse at thresholds, not at the first stack. Low bands are usually harmless, so early cleansing wastes cooldowns. Once you cross into the punishing band, cleanse immediately before the resolve tick.
+
+**How many cleansers should a tatari party bring?**
+Two is the comfortable baseline for most group content, particularly in shared-pool systems. One cleanser can work if the fight is short and the cleanse cooldown is short enough to cover every threshold.
+
+**Is tatari based on real folklore?**
+Yes. The term refers to retribution from an offended spirit or deity in Japanese tradition, and purification rituals, talismans, and appeasement offerings all have real historical counterparts that games adapt into mechanics.

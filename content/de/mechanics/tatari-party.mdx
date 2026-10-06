@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Tatari-Party-Mechaniken erklärt: Wie fluchbasierte Party-Systeme in Spielen funktionieren",
+  description: "Erfahre, wie Tatari-Party-Mechaniken in Spielen funktionieren: Fluch-Stapelung, Reinigungsfenster, Gruppenrollen und Risiko-Nutzen-Taktiken für fluchlastige Kämpfe.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+Kaum eine Spielmechanik bestraft Gier so elegant wie ein Fluch. In der japanischen Folklore ist *Tatari* (祟り) die Vergeltung, die auf ein Unrecht folgt, das nicht bereinigt wurde – ein erzürnter Geist, ein gebrochenes Tabu, eine Schuld, die in Unglück beglichen wird. Eine **Tatari-Party**-Mechanik leiht sich diese Logik und übergibt sie einer Gruppe von Spielern: Jeder Vorteil, den du nimmst, hinterlässt eine Spur, und diese Spuren werden irgendwann fällig.
+
+Bei einer **Tatari-Party** geht es daher weniger um maximalen Schaden als um Schuldenverwaltung. Wenn du schon einmal gesehen hast, wie ein Bosskampf in einer einzigen Runde von angenehm zu katastrophal kippt, hast du dieses Designmuster wahrscheinlich schon getroffen – du hattest nur keinen Namen dafür.
+
+Dieser Leitfaden schlüsselt auf, wie fluchgesteuerte Party-Systeme aufgebaut sind, wie die Folklore dahinter ihre Regeln prägt und was erfahrene Spieler anders machen, sobald der Zähler zu steigen beginnt.
+
+## Tatari in der Folklore: Woher die Fluchmechanik stammt
+
+In der japanischen religiösen Tradition beschreibt Tatari das Unglück, das von einem Kami oder von einem Geist gesandt wird, dem Unrecht getan und der nie besänftigt wurde. Rachegeister – bekannt als *Goryō* – sollten Seuchen, Hungersnöte und Naturkatastrophen bringen, wenn man sie nicht ehrte, und die Höfe der Heian-Zeit reagierten mit Zeremonien, die sie besänftigen sollten. Für tieferen Hintergrund ist der [Überblick über Goryō und die Tradition der Rachegeister](https://en.wikipedia.org/wiki/Gory%C5%8D) ein solider Ausgangspunkt.
+
+Was für das Spieldesign zählt, ist die zugrunde liegende Struktur: Ein Fluch ist kein zufälliger Debuff. Er ist eine *Beziehung*, die du reparieren, ignorieren oder verschlimmern kannst. Reinigungsriten, Opfergaben, Talismane und Schreinbesuche existieren alle in demselben konzeptionellen Raum, und Designer übernehmen diese Ideen fast vollständig, wenn sie ein Fluchsystem bauen.
+
+| Folklore-Konzept | Typische mechanische Umsetzung | Was Spieler sehen |
+|---|---|---|
+| Tatari (Fluch eines Geschädigten) | Stapelnder Debuff, der durch Spieleraktionen wächst | Ein Zähler oder Symbol, das nach oben tickt |
+| Goryō (Rachegeist) | Boss oder Elite, der mit dem Fluch skaliert | Neue Phasen bei festgelegten Schwellenwerten |
+| Harae / Reinigung | Reinigungsfähigkeit, Schrein-Checkpoint, Ritualzauber | Eine zeitlich begrenzte Aktion, die Stapel entfernt oder umwandelt |
+| Ofuda / Talismane | Verbrauchbare Schutzamulette und einmalige Immunitäten | Begrenzte Gegenstände mit Abklingzeit |
+| Opfergaben und Besänftigung | Ressourcenaufwand, um Bestrafung zu verzögern | Kostet Währung, Gegenstände oder eine ganze Runde |
+| Tabu oder gebrochenes Gelübde | Aktionen, die sofort Stapel hinzufügen | Versteckte Auslöser, die durch Testen entdeckt werden |
+
+Der Design-Gewinn ist erzählerisch genauso groß wie mechanisch. Wenn die Bestrafung als etwas gerahmt wird, das die Gruppe *verursacht* hat, fühlt sich ein Wipe wie eine Lektion an statt wie ein Würfelwurf.
+
+## Wie ein Tatari-Party-System funktioniert: Die Kernschleife
+
+Die meisten Umsetzungen dieser Mechanik folgen einer Schleife aus vier Takten, und sobald du die Takte benennen kannst, wirkt der Kampf nicht mehr zufällig. Die Gruppe sammelt Fluch an, das Spiel warnt, dass ein Schwellenwert nahe ist, die Gruppe entscheidet, ob sie Ressourcen für Reinigung ausgibt, und dann wird die angesammelte Schuld beglichen.
+
+| Phase | Was passiert | Signal, das Spieler lesen lernen |
+|---|---|---|
+| Ansammlung | Fluch baut sich durch verursachten Schaden, benutzte Gegenstände oder verstrichene Zeit auf | Zähler, Aurafarbe, Veränderung der Hintergrundgeräusche |
+| Warnung | Ein Schwellenwert naht und der Boss telegraphiert | Dialogzeile, Bildschirmvignette, Animationshinweis |
+| Entscheidung | Die Gruppe wählt zwischen Reinigen, Übertragen oder Weitermachen mit Schaden | Ein kurzes Reinigungsfenster öffnet sich |
+| Abrechnung | Ungereinigte Stapel werden als Burst-Schaden oder Debuffs abgerechnet | Skriptgesteuerter Angriff, der einige Verteidigungen ignoriert |
+
+Es gibt drei grobe Varianten, die man kennen sollte, weil sie unterschiedliche Gewohnheiten verlangen:
+
+- **Gemeinsamer Pool.** Ein Zähler gilt für die ganze Gruppe. Reinigung ist eine Teamentscheidung, und ein unachtsamer Spieler kann alle mitreißen.
+- **Stapel pro Charakter.** Jedes Mitglied trägt seinen eigenen Fluch, und in manchen Designs werden die Stapel eines gefallenen Mitglieds auf die Überlebenden übertragen. Positionierung und Selbstmanagement zählen mehr als Gruppenkoordination.
+- **Gespiegelter Fluch.** Was die Gruppe austeilt, kommt verstärkt zurück. Aggressive Burst-Fenster sind effektiv ein Kredit auf eine zukünftige Runde.
+
+In jeder Variante existiert die Mechanik, um rohen Schadensausstoß in eine *Entscheidung* zu verwandeln. Eine Tatari-Party, die nur weiß, wie man härter zuschlägt, verliert irgendwann gegen ihren eigenen Schwung.
+
+## Fluch-Stapelung und Reinigungs-Timing
+
+Schwellenwerte entscheiden die meisten Runs. Designer hängen üblicherweise eskalierende Effekte an Stapelbänder statt an eine einzelne Strafe, sodass die Gefahrenkurve glatt bleibt – bis sie es nicht mehr ist. Die Bänder unten spiegeln Muster wider, die Spieler bei fluchlastigen Begegnungen häufig berichten; genaue Zahlen variieren je Spiel, aber die Form der Kurve ist bemerkenswert konsistent.
+
+| Stapelband | Häufiger Effekt | Typische Reaktion |
+|---|---|---|
+| 0–2 | Kosmetische oder vernachlässigbare Strafen | Ignorieren und Schadens-Uptime halten |
+| 3–5 | Geringe Statuswertsenkungen, kleiner Chip-Schaden | Nur reinigen, wenn ein Fenster frei ist |
+| 6–8 | Eskalierende Strafen, zusätzliche Gegneraktionen | Reinigung vor dem nächsten Schwellenwert priorisieren |
+| 9+ | Burst-Bestrafung, möglicher sofortiger Verlust | Notfallreinigung, Immunität oder Phasenübersprung |
+
+### Reinigungsfenster
+
+Timing zählt mehr als rohe Reinigungskraft. Die meisten Systeme rechnen Flüche zu einem festen Tick ab, was bedeutet, dass Reinigen *vor* diesem Tick weit mehr wert ist als danach. Achte auf die Vorwarnanimation statt nur auf den Stapelzähler.
+
+### Abnehmende Erträge und Abklingzeiten
+
+Viele Umsetzungen machen wiederholte Reinigung zunehmend teurer – steigende Kosten, längere Abklingzeiten oder verringerte Wirksamkeit. Das drängt Gruppen zu abwechselnden Reinigern, statt sich auf einen einzigen Support-Charakter zu verlassen, und bestraft die Angewohnheit, jeden einzelnen Stapel panisch wegzureinigen.
+
+## Gruppenrollen und Zusammensetzung für fluchlastige Kämpfe
+
+Eine Tatari-Party steht und fällt mit ihrer Zusammensetzung. Weil die Bestrafung nach Zeitplan und nicht zufällig eintrifft, kannst du für sie planen – und diese Planung ist meist mehr wert als ein paar Prozentpunkte Schaden.
+
+| Rolle | Hauptaufgabe | Prioritäten |
+|---|---|---|
+| Reiniger / Support | Stapel entfernen oder umwandeln | Reinigung mit kürzester Abklingzeit, Gruppenabdeckung |
+| Ritualist / Debuffer | Schwellenwerte verzögern, die Abrechnung abschwächen | Kontrolle der Zugreihenfolge, Verlangsamungs- und Verzögerungseffekte |
+| Schadensverursacher | Phasen während sicherer Fenster vorantreiben | Frontlastiger Burst statt langsamer Rampen |
+| Anker / Soak | Den Abrechnungstreffer absorbieren | Hohe Schadensminderung, Selbstreinigungsoptionen |
+| Späher / Utility | Versteckte Auslöser aufdecken | Informationsfähigkeiten, Item-Ökonomie |
+
+Zwei Reiniger sind im Allgemeinen sicherer als einer, besonders in Systemen mit gemeinsamem Pool, in denen eine einzige verpasste Abklingzeit den Versuch beenden kann. Wenn deine Aufstellung eine Wahl erzwingt, bevorzuge Konsistenz gegenüber Spitzendurchsatz: Eine mittelmäßige Reinigung, die immer verfügbar ist, schlägt eine mächtige, die es nicht ist.
+
+## Häufige Fehler und Risiko-Nutzen-Taktiken
+
+Den Fluch zu füttern ist eine legitime Strategie. Einen Kampf zu verkürzen bedeutet insgesamt weniger Abrechnungs-Ticks, also kann kontrollierte Gier optimal sein – aber sie hat eine harte Obergrenze, und Community-Berichte zeigen durchweg, dass die meisten Wipes einen Schwellenwert später passieren, als nötig gewesen wäre.
+
+| Fehler | Warum er schadet | Bessere Angewohnheit |
+|---|---|---|
+| Reinigen, sobald ein Stapel erscheint | Verschwendet Abklingzeiten und Gegenstände in harmlosen Bändern | An Schwellenwerten reinigen, nicht bei einem Stapel |
+| Den Zähler während Burst-Fenstern ignorieren | Die Abrechnung landet mitten in der Combo und löscht die Gruppe aus | Einen harten Stopp am Warnband setzen |
+| Fluch blind auf einen Verbündeten übertragen | Übertragungen verstärken sich beim Empfänger oft | Immunität prüfen, bevor du etwas weitergibst |
+| Reinigungsgegenstände für „später“ horten | Kämpfe enden meist, bevor „später“ kommt | Pro Schwellenwertzyklus einen Verbrauchsgegenstand ausgeben |
+| Nur auf Schaden bauen | Es gibt keine Antwort, wenn der Fluch abgerechnet wird | Mindestens einen Reinigungsplatz reservieren |
+
+Eine einfache Risiko-Nutzen-Regel hilft: Treibe Schaden voran, solange der Zähler in den niedrigen Bändern steht, und wechsle sofort zu Ressourcenausgaben, wenn du in das bestrafende Band übergehst. Behandle die Warn-Telegrafie als echte Deadline, nicht als Vorschlag.
+
+## FAQ
+
+**Was genau ist eine Tatari-Party-Mechanik?**
+Es ist ein gruppenbasiertes System, in dem Spieleraktionen einen Fluch ansammeln, der irgendwann als Bestrafung abgerechnet wird. Eine Tatari-Party muss entscheiden, wann sie Ressourcen für Reinigung ausgibt und wann sie Schaden vorantreibt und die Schuld akzeptiert.
+
+**Sollte man früh reinigen oder hoch stapeln für ein größeres Schadensfenster?**
+An Schwellenwerten reinigen, nicht beim ersten Stapel. Niedrige Bänder sind meist harmlos, also verschwendet frühes Reinigen Abklingzeiten. Sobald du ins bestrafende Band übergehst, reinige sofort vor dem Abrechnungs-Tick.
+
+**Wie viele Reiniger sollte eine Tatari-Party mitbringen?**
+Zwei sind die komfortable Basis für die meisten Gruppeninhalte, besonders in Systemen mit gemeinsamem Pool. Ein Reiniger kann funktionieren, wenn der Kampf kurz ist und die Reinigungs-Abklingzeit kurz genug, um jeden Schwellenwert abzudecken.
+
+**Basiert Tatari auf echter Folklore?**
+Ja. Der Begriff bezeichnet die Vergeltung eines erzürnten Geistes oder einer Gottheit in der japanischen Tradition, und Reinigungsrituale, Talismane und Besänftigungsopfer haben alle reale historische Entsprechungen, die Spiele in Mechaniken adaptieren.

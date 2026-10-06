@@ -7,6 +7,13 @@
     "legalNotice": "Non-official fan wiki. Made by players, for players. Not affiliated with Hidden Tower Studios or TheGamesFortress."
   },
   "nav": {
+    "guide": "Guide",
+    "characters": "Characters",
+    "progression": "Progression",
+    "tier": "Tier",
+    "modes": "Modes",
+    "mechanics": "Mechanics",
+    "codes": "Codes",
     "home": "Home",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
@@ -411,7 +418,34 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Tatari Guide",
+    "overviewDescription": "Beginner-friendly Tatari guides covering the basics of Japanese curses, offerings, fishing, and how to appease vengeful spirits step by step."
+  },
+  "characters": {
+    "overviewTitle": "Tatari Characters & Critters",
+    "overviewDescription": "Meet the cursed critters, evolutions, elements, rarity tiers, stats, and shiny variants that make up the Tatari bestiary."
+  },
+  "progression": {
+    "overviewTitle": "Tatari Progression Guide",
+    "overviewDescription": "Plan your upgrades with Tatari evolution order, evolution priority, who to evolve, and max-level progression guides."
+  },
+  "tier": {
+    "overviewTitle": "Tatari Tier Lists",
+    "overviewDescription": "Rank the strongest curse units with Tatari tier lists for evolutions, horde, gold rush, water, and second-tier picks."
+  },
+  "modes": {
+    "overviewTitle": "Tatari Game Modes",
+    "overviewDescription": "Guides to every Tatari mode, including horde, horde invasion, gold rush, dojo, and boss challenge difficulty tiers."
+  },
+  "mechanics": {
+    "overviewTitle": "Tatari Mechanics",
+    "overviewDescription": "Understand the systems behind Tatari, from formations and party setups to leveling, horde formations, and wish boxes."
+  },
+  "codes": {
+    "overviewTitle": "Tatari Codes",
+    "overviewDescription": "Find working Tatari codes, learn how to redeem them safely, and check which rewards are still active."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -442,10 +476,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Tatari Official Site",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Character Guides",
+    "tierLists": "Tier Lists",
+    "mechanicsGuides": "Mechanics"
   }
 }
