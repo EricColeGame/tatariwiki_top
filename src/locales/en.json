@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Tatari Journey",
+      "title": "Your Tatari Wiki Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the investigation loop, controls, and exploration basics before you set foot in the abandoned village."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Full Walkthrough",
+          "description": "Follow the complete case route through key locations, locked areas, and story beats without getting stuck."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Puzzles & Clues",
+          "description": "Solve environmental puzzles and track every piece of evidence that unlocks the next part of the case."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Tatari."
+          "title": "Story & Endings",
+          "description": "Understand the missing camper case, the Japanese urban legend behind it, and how the investigation ends."
         }
       ]
     },
@@ -66,265 +66,341 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Full Walkthrough",
+        "Puzzle Solutions",
+        "Achievements"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need for your first hours in the abandoned village, from controls to clue tracking.",
+          "href": "/guide/tatari-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Full Walkthrough",
+          "description": "The complete case route with every key location, lock, and story step in order.",
+          "href": "/guide/tatari-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Puzzle Solutions",
+          "description": "Solutions for environmental puzzles and locked areas, with the clue each one needs.",
+          "href": "/guide"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Story & Endings",
+          "description": "A spoiler-controlled look at the missing camper case and how the investigation resolves.",
+          "href": "/guide/tatari-evolution-guide"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Achievements",
+          "description": "Every unlock goal grouped by difficulty, from story feats to the toughest challenges.",
+          "href": "/tier"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Evidence & Clues",
+          "description": "The clues that move the case forward and where each one is found.",
+          "href": "/mechanics"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Tatari?",
       "paragraphs": [
-        "Tatari is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Tatari is a first-person paranormal investigation horror game from developer Hidden Tower Studios, published by TheGamesFortress. You play a Tokyo detective looking into a disappearance that pulls you toward an abandoned village, a trail of hidden clues, and a Japanese urban legend that refuses to stay buried.",
+        "Released for PC on January 12, 2026, Tatari blends exploration, environmental puzzles, evidence tracking, and supernatural horror. Tatari Wiki gathers walkthroughs, puzzle solutions, clue references, location notes, achievement help, and story explanations so you can finish the case without missing anything."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Hidden Tower Studios"
+        },
+        {
+          "label": "Publisher",
+          "value": "TheGamesFortress"
+        },
+        {
+          "label": "Release Date",
+          "value": "Jan 12 2026"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC / Steam"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Paranormal Horror"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Achievements",
+          "value": "25"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Setting",
+          "value": "Tokyo & Abandoned Village"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Tatari Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Eight core modules cover everything a Tatari Wiki reader needs: the full walkthrough, puzzle solutions, beginner basics, evidence, locations, story, achievements, and PC requirements.",
       "modules": [
         {
           "order": 1,
-          "name": "Tatari Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/tatari-codes",
-          "displayType": "code-box",
+          "name": "Tatari Wiki Walkthrough",
+          "description": "A complete progression walkthrough covering the investigation route, key locations, puzzles, locks, evidence, and the story steps that move the case forward.",
+          "href": "/guide/tatari-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Arrive in Tokyo and take on the missing camper case."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Search the abandoned village for the first usable clues."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Solve environmental puzzles to open locked areas."
+            },
+            {
+              "label": "4",
+              "detail": "Track evidence and connect it to your next objective."
+            },
+            {
+              "label": "5",
+              "detail": "Survive supernatural encounters in dangerous zones."
+            },
+            {
+              "label": "6",
+              "detail": "Confront the urban legend at the heart of the case."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/tatari-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Tatari Wiki Puzzle Guide",
+          "description": "Organised solutions for the game's environmental puzzles, locked areas, clues, and hidden information, each with the required clue and solution sequence.",
+          "href": "/guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Locks",
+              "detail": "Every locked door and the clue that opens it."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Shrines",
+              "detail": "Ritual sites where offering order and timing matter."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Secrets",
+              "detail": "Concealed notes and objects that reveal the next step."
+            },
+            {
+              "label": "Keys",
+              "detail": "Where to find key items and what each one unlocks."
+            },
+            {
+              "label": "Traps",
+              "detail": "Hazards and wrong turns that cost you progress."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/tatari-tier-list",
-          "displayType": "tier-grid",
+          "name": "Tatari Wiki Beginner Guide",
+          "description": "A first-time player guide to the basic investigation loop, exploration, evidence tracking, environmental interaction, and how to approach dangerous areas.",
+          "href": "/guide/tatari-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Learn the investigation loop and core controls."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Explore carefully and read every environmental hint."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Log evidence so you never lose track of a clue."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Carry the right items before entering dangerous areas."
+            },
+            {
+              "label": "5",
+              "detail": "Decide what to prioritise before the abandoned village."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/tatari-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Tatari Wiki Evidence Guide",
+          "description": "A structured reference for the important evidence and clues found during the investigation, where each one is discovered, and how it unlocks the next part of the case.",
+          "href": "/mechanics",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "CASE",
+              "detail": "The missing camper report that starts the investigation."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "SCENE",
+              "detail": "Physical evidence recovered from the abandoned village."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "NOTES",
+              "detail": "Written clues and records that point to the next location."
+            },
+            {
+              "label": "ITEMS",
+              "detail": "Objects that only make sense once paired with another clue."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/tatari-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Tatari Wiki Locations",
+          "description": "A catalogue of the major locations visited while following the disappearance case, including the abandoned village, with the clues, puzzles, and dangers tied to each one.",
+          "href": "/modes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Tokyo",
+              "detail": "The detective's home base and the source of the case file."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Village",
+              "detail": "The abandoned village at the centre of the investigation."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Shrine",
+              "detail": "A ritual site tied to the Japanese urban legend."
+            },
+            {
+              "label": "Tunnels",
+              "detail": "Dark routes that hide clues and supernatural threats."
+            },
+            {
+              "label": "Old House",
+              "detail": "A key interior location with puzzles and evidence."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/tatari-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Tatari Wiki Story Guide",
+          "description": "A summary of the investigation narrative, the missing camper case, the abandoned village, and its connection to Japanese urban legends, with spoiler-controlled sections.",
+          "href": "/progression",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Overview",
+              "detail": "A spoiler-free summary of the case and its setup."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Lore",
+              "detail": "The urban legend and folklore behind the curse."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Timeline",
+              "detail": "How the case unfolds from first report to finale."
+            },
+            {
+              "label": "Ending",
+              "detail": "A full explanation of how the investigation resolves."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Tatari Wiki Achievements",
+          "description": "A reference to the game's achievements and how to unlock them, aimed at completionists while keeping the main walkthrough focused on story progression.",
+          "href": "/tier",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "The hardest feats, tied to the toughest encounters and endings."
+            },
+            {
+              "label": "A",
+              "detail": "Missable achievements that depend on story choices."
+            },
+            {
+              "label": "B",
+              "detail": "Exploration and collectible achievements across the village."
+            },
+            {
+              "label": "C",
+              "detail": "Story achievements earned by finishing the main case."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Tatari Wiki System Requirements",
+          "description": "The minimum and recommended PC requirements, supported platform information, storage needs, and other technical details worth checking before purchase.",
+          "href": "/guide/tatari-upgrade-guide",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows PC, 64-bit, played through Steam."
+            },
+            {
+              "label": "CPU",
+              "detail": "Minimum and recommended processor targets."
+            },
+            {
+              "label": "RAM",
+              "detail": "Memory needed for a stable investigation."
+            },
+            {
+              "label": "GPU",
+              "detail": "Graphics card targets for the recommended experience."
+            },
+            {
+              "label": "Storage",
+              "detail": "Disk space required for the full install."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Tatari.",
+      "title": "Tatari Wiki FAQ",
+      "description": "Quick answers to the most common questions about Tatari Wiki and the Tatari investigation.",
       "items": [
         {
-          "question": "What is Tatari?",
-          "answer": "Tatari is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Tatari Wiki?",
+          "answer": "Tatari Wiki is a fan-made guide hub for Tatari, the first-person paranormal investigation horror game from Hidden Tower Studios. It collects walkthroughs, puzzle solutions, clue references, and story explanations in one place."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Tatari Wiki official?",
+          "answer": "No. Tatari Wiki is built by players and is not affiliated with Hidden Tower Studios or TheGamesFortress."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Where should a new player start on Tatari Wiki?",
+          "answer": "Start with the Tatari Wiki Beginner Guide, then follow the full walkthrough for the case route and use the puzzle guide whenever you get stuck."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Tatari Wiki cover achievements?",
+          "answer": "Yes. The Tatari Wiki achievements module groups unlock goals by difficulty so completionists know what to chase first."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Are there story spoilers on Tatari Wiki?",
+          "answer": "The Tatari Wiki story guide is split into spoiler-free and full-explanation sections, so you can read only as much as you want."
         }
       ]
     },
@@ -341,7 +417,6 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -351,7 +426,8 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "playOnSteam": "Play on Steam"
   },
   "footer": {
     "aboutTitle": "Tatari Wiki",
