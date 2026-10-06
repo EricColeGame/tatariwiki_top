@@ -1,1 +1,485 @@
-{}
+{
+  "site": {
+    "name": "Tatari Wiki",
+    "shortName": "Tatari",
+    "tagline": "Komplettlösung, Rätsel, Hinweise & Horror-Guides",
+    "description": "Von Fans erstelltes Tatari-Wiki mit vollständiger Komplettlösung, Rätsellösungen, Hinweisen, Orten, Erfolgen und der Geschichte des japanischen paranormalen Detektiv-Horrorspiels.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler. Nicht mit Hidden Tower Studios oder TheGamesFortress verbunden."
+  },
+  "nav": {
+    "guide": "Guide",
+    "characters": "Charaktere",
+    "progression": "Fortschritt",
+    "tier": "Tier",
+    "modes": "Modi",
+    "mechanics": "Mechaniken",
+    "codes": "Codes",
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Theme wechseln"
+  },
+  "home": {
+    "meta": {
+      "title": "Tatari Wiki – Komplettlösung, Rätsel, Hinweise & Horror-Guide",
+      "description": "Tatari Wiki bietet Komplettlösungen, Rätsel, Hinweise, Orte, Erfolge, Story-Details, Enden und Guides für dieses japanische paranormale Detektiv-Horrorspiel."
+    },
+    "hero": {
+      "eyebrow": "Japanischer paranormaler Detektiv-Horror",
+      "title": "Tatari Wiki",
+      "description": "Ein paranormales First-Person-Ermittlungsabenteuer: Als Tokioter Detektiv löst du ein Verschwinden mithilfe von Rätseln, verborgenen Hinweisen, einem verlassenen Dorf und einer furchterregenden japanischen Urban Legend.",
+      "stats": [
+        "25 Erfolge verfügbar",
+        "21 Nutzerrezensionen",
+        "Erscheint am 12. Jan. 2026",
+        "PC / Steam"
+      ],
+      "primaryCta": "Einsteigerguide",
+      "secondaryCta": "Rätsel & Hinweise",
+      "tertiaryCta": "Steam-Seite",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Tatari-Wiki-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteigerguide",
+          "description": "Lerne die Ermittlungsschleife, die Steuerung und die Grundlagen der Erkundung, bevor du das verlassene Dorf betrittst."
+        },
+        {
+          "number": "2",
+          "title": "Komplettlösung",
+          "description": "Folge der vollständigen Fallroute durch Schlüsselorte, verschlossene Bereiche und Story-Abschnitte, ohne hängenzubleiben."
+        },
+        {
+          "number": "3",
+          "title": "Rätsel & Hinweise",
+          "description": "Löse Umgebungsrätsel und verfolge jeden Beweis, der den nächsten Teil des Falls freischaltet."
+        },
+        {
+          "number": "4",
+          "title": "Story & Enden",
+          "description": "Verstehe den Fall des vermissten Campers, die japanische Urban Legend dahinter und wie die Ermittlung endet."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Aktuell im Trend",
+      "quickLinks": [
+        "Einsteigerguide",
+        "Komplettlösung",
+        "Rätsellösungen",
+        "Erfolge"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteigerguide",
+          "description": "Alles, was du für deine ersten Stunden im verlassenen Dorf brauchst – von der Steuerung bis zur Hinweisverfolgung.",
+          "href": "/guide/tatari-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Komplettlösung",
+          "description": "Die vollständige Fallroute mit jedem Schlüsselort, Schloss und Story-Schritt in der richtigen Reihenfolge.",
+          "href": "/guide/tatari-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Rätsellösungen",
+          "description": "Lösungen für Umgebungsrätsel und verschlossene Bereiche, jeweils mit dem benötigten Hinweis.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Story & Enden",
+          "description": "Ein spoilerkontrollierter Blick auf den Fall des vermissten Campers und die Auflösung der Ermittlung.",
+          "href": "/guide/tatari-evolution-guide"
+        },
+        {
+          "badge": "Neu",
+          "title": "Erfolge",
+          "description": "Jedes Freischaltziel nach Schwierigkeit gruppiert, von Story-Leistungen bis zu den härtesten Herausforderungen.",
+          "href": "/tier"
+        },
+        {
+          "badge": "Neu",
+          "title": "Beweise & Hinweise",
+          "description": "Die Hinweise, die den Fall voranbringen, und wo jeder einzelne zu finden ist.",
+          "href": "/mechanics"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Tatari?",
+      "paragraphs": [
+        "Tatari ist ein paranormales First-Person-Ermittlungshorrorspiel des Entwicklers Hidden Tower Studios, veröffentlicht von TheGamesFortress. Du spielst einen Tokioter Detektiv, der ein Verschwinden untersucht und dabei in ein verlassenes Dorf, eine Spur verborgener Hinweise und eine japanische Urban Legend gerät, die nicht begraben bleiben will.",
+        "Tatari erschien am 12. Januar 2026 für PC und verbindet Erkundung, Umgebungsrätsel, Beweisverfolgung und übernatürlichen Horror. Tatari Wiki bündelt Komplettlösungen, Rätsellösungen, Hinweisverweise, Ortsnotizen, Erfolgshilfen und Story-Erklärungen, damit du den Fall abschließen kannst, ohne etwas zu verpassen."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Hidden Tower Studios"
+        },
+        {
+          "label": "Publisher",
+          "value": "TheGamesFortress"
+        },
+        {
+          "label": "Erscheinungsdatum",
+          "value": "12. Jan. 2026"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC / Steam"
+        },
+        {
+          "label": "Genre",
+          "value": "Paranormaler Horror"
+        },
+        {
+          "label": "Erfolge",
+          "value": "25"
+        },
+        {
+          "label": "Schauplatz",
+          "value": "Tokio & verlassenes Dorf"
+        }
+      ],
+      "cta": "Alle Guides erkunden"
+    },
+    "explore": {
+      "title": "Tatari Wiki erkunden",
+      "description": "Acht Kernmodule decken alles ab, was ein Tatari-Wiki-Leser braucht: die vollständige Komplettlösung, Rätsellösungen, Einsteiger-Grundlagen, Beweise, Orte, Story, Erfolge und PC-Anforderungen.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Tatari Wiki Komplettlösung",
+          "description": "Eine vollständige Fortschrittslösung mit Ermittlungsroute, Schlüsselorten, Rätseln, Schlössern, Beweisen und den Story-Schritten, die den Fall voranbringen.",
+          "href": "/guide/tatari-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "In Tokio ankommen und den Fall des vermissten Campers übernehmen."
+            },
+            {
+              "label": "2",
+              "detail": "Das verlassene Dorf nach den ersten brauchbaren Hinweisen durchsuchen."
+            },
+            {
+              "label": "3",
+              "detail": "Umgebungsrätsel lösen, um verschlossene Bereiche zu öffnen."
+            },
+            {
+              "label": "4",
+              "detail": "Beweise verfolgen und mit dem nächsten Ziel verknüpfen."
+            },
+            {
+              "label": "5",
+              "detail": "Übernatürliche Begegnungen in gefährlichen Zonen überleben."
+            },
+            {
+              "label": "6",
+              "detail": "Der Urban Legend im Zentrum des Falls gegenübertreten."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Tatari Wiki Rätselguide",
+          "description": "Strukturierte Lösungen für die Umgebungsrätsel, verschlossenen Bereiche, Hinweise und verborgenen Informationen des Spiels, jeweils mit dem benötigten Hinweis und der Lösungsreihenfolge.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Schlösser",
+              "detail": "Jede verschlossene Tür und der Hinweis, der sie öffnet."
+            },
+            {
+              "label": "Schreine",
+              "detail": "Ritualorte, an denen Reihenfolge und Zeitpunkt der Opfergaben zählen."
+            },
+            {
+              "label": "Geheimnisse",
+              "detail": "Verborgene Notizen und Objekte, die den nächsten Schritt offenbaren."
+            },
+            {
+              "label": "Schlüssel",
+              "detail": "Wo wichtige Gegenstände zu finden sind und was jeder öffnet."
+            },
+            {
+              "label": "Fallen",
+              "detail": "Gefahren und Irrwege, die dich Fortschritt kosten."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Tatari Wiki Einsteigerguide",
+          "description": "Ein Guide für Erstspieler zur grundlegenden Ermittlungsschleife, Erkundung, Beweisverfolgung, Interaktion mit der Umgebung und zum Umgang mit gefährlichen Bereichen.",
+          "href": "/guide/tatari-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Die Ermittlungsschleife und die Grundsteuerung erlernen."
+            },
+            {
+              "label": "2",
+              "detail": "Sorgfältig erkunden und jeden Umgebungshinweis lesen."
+            },
+            {
+              "label": "3",
+              "detail": "Beweise festhalten, damit kein Hinweis verloren geht."
+            },
+            {
+              "label": "4",
+              "detail": "Die richtigen Gegenstände mitnehmen, bevor du gefährliche Bereiche betrittst."
+            },
+            {
+              "label": "5",
+              "detail": "Entscheiden, was vor dem verlassenen Dorf Priorität hat."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Tatari Wiki Beweisguide",
+          "description": "Eine strukturierte Referenz zu den wichtigen Beweisen und Hinweisen der Ermittlung, wo jeder gefunden wird und wie er den nächsten Teil des Falls freischaltet.",
+          "href": "/mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "FALL",
+              "detail": "Die Vermisstenmeldung des Campers, die die Ermittlung auslöst."
+            },
+            {
+              "label": "TATORT",
+              "detail": "Physische Beweise aus dem verlassenen Dorf."
+            },
+            {
+              "label": "NOTIZEN",
+              "detail": "Schriftliche Hinweise und Aufzeichnungen, die auf den nächsten Ort deuten."
+            },
+            {
+              "label": "GEGENSTÄNDE",
+              "detail": "Objekte, die erst in Kombination mit einem anderen Hinweis Sinn ergeben."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tatari Wiki Schauplätze",
+          "description": "Ein Katalog der wichtigsten Orte, die bei der Verfolgung des Verschwindens besucht werden, einschließlich des verlassenen Dorfs, mit den jeweiligen Hinweisen, Rätseln und Gefahren.",
+          "href": "/modes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tokio",
+              "detail": "Die Basis des Detektivs und die Quelle der Fallakte."
+            },
+            {
+              "label": "Dorf",
+              "detail": "Das verlassene Dorf im Zentrum der Ermittlung."
+            },
+            {
+              "label": "Schrein",
+              "detail": "Ein Ritualort mit Verbindung zur japanischen Urban Legend."
+            },
+            {
+              "label": "Tunnel",
+              "detail": "Dunkle Wege, die Hinweise und übernatürliche Bedrohungen verbergen."
+            },
+            {
+              "label": "Altes Haus",
+              "detail": "Ein wichtiger Innenort mit Rätseln und Beweisen."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Tatari Wiki Story-Guide",
+          "description": "Eine Zusammenfassung der Ermittlungshandlung, des Falls des vermissten Campers, des verlassenen Dorfs und seiner Verbindung zu japanischen Urban Legends, mit spoilerkontrollierten Abschnitten.",
+          "href": "/progression",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Überblick",
+              "detail": "Eine spoilerfreie Zusammenfassung des Falls und seiner Ausgangslage."
+            },
+            {
+              "label": "Lore",
+              "detail": "Die Urban Legend und Folklore hinter dem Fluch."
+            },
+            {
+              "label": "Zeitlinie",
+              "detail": "Wie sich der Fall von der ersten Meldung bis zum Finale entfaltet."
+            },
+            {
+              "label": "Ende",
+              "detail": "Eine vollständige Erklärung, wie die Ermittlung ausgeht."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Tatari Wiki Erfolge",
+          "description": "Eine Referenz zu den Erfolgen des Spiels und ihrer Freischaltung, gedacht für Completionists, während die Hauptlösung auf den Story-Fortschritt fokussiert bleibt.",
+          "href": "/tier",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Die härtesten Leistungen, verbunden mit den schwersten Begegnungen und Enden."
+            },
+            {
+              "label": "A",
+              "detail": "Verpassbare Erfolge, die von Story-Entscheidungen abhängen."
+            },
+            {
+              "label": "B",
+              "detail": "Erkundungs- und Sammelerfolge im gesamten Dorf."
+            },
+            {
+              "label": "C",
+              "detail": "Story-Erfolge, die durch Abschluss des Hauptfalls verdient werden."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Tatari Wiki Systemanforderungen",
+          "description": "Die minimalen und empfohlenen PC-Anforderungen, Informationen zu unterstützten Plattformen, Speicherbedarf und weitere technische Details, die vor dem Kauf wichtig sind.",
+          "href": "/guide/tatari-upgrade-guide",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows-PC, 64-Bit, über Steam gespielt."
+            },
+            {
+              "label": "CPU",
+              "detail": "Minimale und empfohlene Prozessorziele."
+            },
+            {
+              "label": "RAM",
+              "detail": "Arbeitsspeicher für eine stabile Ermittlung."
+            },
+            {
+              "label": "GPU",
+              "detail": "Grafikkartenziele für das empfohlene Erlebnis."
+            },
+            {
+              "label": "Speicher",
+              "detail": "Benötigter Speicherplatz für die vollständige Installation."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tatari Wiki FAQ",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Tatari Wiki und der Tatari-Ermittlung.",
+      "items": [
+        {
+          "question": "Was ist Tatari Wiki?",
+          "answer": "Tatari Wiki ist ein von Fans erstellter Guide-Hub für Tatari, das paranormale First-Person-Ermittlungshorrorspiel von Hidden Tower Studios. Es sammelt Komplettlösungen, Rätsellösungen, Hinweisverweise und Story-Erklärungen an einem Ort."
+        },
+        {
+          "question": "Ist Tatari Wiki offiziell?",
+          "answer": "Nein. Tatari Wiki wird von Spielern erstellt und ist nicht mit Hidden Tower Studios oder TheGamesFortress verbunden."
+        },
+        {
+          "question": "Wo sollte ein neuer Spieler auf Tatari Wiki beginnen?",
+          "answer": "Beginne mit dem Tatari Wiki Einsteigerguide, folge dann der vollständigen Komplettlösung für die Fallroute und nutze den Rätselguide, wenn du nicht weiterkommst."
+        },
+        {
+          "question": "Behandelt Tatari Wiki Erfolge?",
+          "answer": "Ja. Das Tatari Wiki Erfolgsmodul gruppiert Freischaltziele nach Schwierigkeit, damit Completionists wissen, was sie zuerst angehen sollten."
+        },
+        {
+          "question": "Gibt es Story-Spoiler auf Tatari Wiki?",
+          "answer": "Der Tatari Wiki Story-Guide ist in spoilerfreie und vollständig erklärende Abschnitte unterteilt, sodass du nur so viel lesen kannst, wie du möchtest."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, das Tatari-Rätsel zu lüften?",
+      "description": "Von deinen ersten Ermittlungsschritten bis zur finalen Enthüllung der Urban Legend hält dich unser Community-Wiki mit kostenlosen, aktuellen Komplettlösungen, Rätsellösungen und Hinweis-Guides auf dem Laufenden.",
+      "primary": "Einsteigerguide lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Tatari Guide",
+    "overviewDescription": "Einsteigerfreundliche Tatari-Guides zu den Grundlagen japanischer Flüche, Opfergaben, Fischen und dazu, wie man rachsüchtige Geister Schritt für Schritt besänftigt."
+  },
+  "characters": {
+    "overviewTitle": "Tatari Charaktere & Critters",
+    "overviewDescription": "Lerne die verfluchten Critters, Entwicklungen, Elemente, Seltenheitsstufen, Werte und Shiny-Varianten kennen, aus denen das Tatari-Bestiarium besteht."
+  },
+  "progression": {
+    "overviewTitle": "Tatari Fortschrittsguide",
+    "overviewDescription": "Plane deine Verbesserungen mit Tatari-Entwicklungsreihenfolge, Entwicklungspriorität, wem man entwickeln sollte und Max-Level-Fortschrittsguides."
+  },
+  "tier": {
+    "overviewTitle": "Tatari Tier-Listen",
+    "overviewDescription": "Ranke die stärksten Fluch-Einheiten mit Tatari-Tier-Listen für Entwicklungen, Horde, Gold Rush, Wasser und Zweit-Tier-Picks."
+  },
+  "modes": {
+    "overviewTitle": "Tatari Spielmodi",
+    "overviewDescription": "Guides zu jedem Tatari-Modus, darunter Horde, Horde Invasion, Gold Rush, Dojo und Boss-Challenge-Schwierigkeitsstufen."
+  },
+  "mechanics": {
+    "overviewTitle": "Tatari Mechaniken",
+    "overviewDescription": "Verstehe die Systeme hinter Tatari, von Formationen und Team-Zusammenstellungen bis zu Leveling, Hordenformationen und Wunschboxen."
+  },
+  "codes": {
+    "overviewTitle": "Tatari Codes",
+    "overviewDescription": "Finde funktionierende Tatari-Codes, erfahre, wie man sie sicher einlöst, und prüfe, welche Belohnungen noch aktiv sind."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!",
+    "playOnSteam": "Auf Steam spielen"
+  },
+  "footer": {
+    "aboutTitle": "Tatari Wiki",
+    "about": "Tatari Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub mit der vollständigen Komplettlösung, Rätseln, Hinweisen, Orten, Erfolgen und Story-Details für das japanische paranormale Detektiv-Horrorspiel Tatari.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Tatari Wiki. Nicht mit Hidden Tower Studios oder TheGamesFortress verbunden.",
+    "description": "Paranormaler First-Person-Ermittlungshorror für PC und Steam. Löse Rätsel, finde Hinweise und überlebe eine japanische Urban Legend.",
+    "playGame": "Auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Tatari Offizielle Website",
+    "beginnerGuide": "Einsteigerguide",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "characterGuides": "Charakter-Guides",
+    "tierLists": "Tier-Listen",
+    "mechanicsGuides": "Mechaniken"
+  }
+}

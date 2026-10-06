@@ -1,1 +1,485 @@
-{}
+{
+  "site": {
+    "name": "Tatari Wiki",
+    "shortName": "Tatari",
+    "tagline": "攻略・パズル・手がかり・ホラーガイド",
+    "description": "日本の心霊探偵ホラーゲームの完全攻略、パズル解答、手がかり、場所、実績、物語を網羅するファン制作のTatariウィキ。",
+    "legalNotice": "非公式のファンウィキ。プレイヤーがプレイヤーのために制作しています。Hidden Tower Studios ならびに TheGamesFortress とは提携していません。"
+  },
+  "nav": {
+    "guide": "ガイド",
+    "characters": "キャラクター",
+    "progression": "進行",
+    "tier": "ティア",
+    "modes": "モード",
+    "mechanics": "メカニクス",
+    "codes": "コード",
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替"
+  },
+  "home": {
+    "meta": {
+      "title": "Tatari Wiki - 攻略・パズル・手がかり・ホラーガイド",
+      "description": "Tatari Wikiでは、この日本の心霊探偵ホラーゲームの攻略、パズル、手がかり、場所、実績、物語の詳細、エンディング、ガイドを掲載しています。"
+    },
+    "hero": {
+      "eyebrow": "日本の心霊探偵ホラー",
+      "title": "Tatari Wiki",
+      "description": "東京の探偵となって、パズルや隠された手がかり、廃村、そして恐ろしい日本の都市伝説を辿りながら失踪事件を解決する一人称視点の心霊調査アドベンチャー。",
+      "stats": [
+        "実績25種類",
+        "ユーザーレビュー21件",
+        "2026年1月12日リリース",
+        "PC / Steam"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "パズルと手がかり",
+      "tertiaryCta": "Steamページ",
+      "videoLabel": "公式トレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "Tatari Wikiの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "廃村に足を踏み入れる前に、調査の流れ、操作方法、探索の基本を学びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "完全攻略",
+          "description": "主要な場所、施錠されたエリア、物語の展開を辿る完全な事件ルートで、詰まることなく進めます。"
+        },
+        {
+          "number": "3",
+          "title": "パズルと手がかり",
+          "description": "環境パズルを解き、事件の次段階を解放するあらゆる証拠を追跡しましょう。"
+        },
+        {
+          "number": "4",
+          "title": "物語とエンディング",
+          "description": "行方不明のキャンパー事件、その背景にある日本の都市伝説、そして調査がどう終わるのかを理解しましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "今話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "完全攻略",
+        "パズル解答",
+        "実績"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "操作方法から手がかりの記録まで、廃村での最初の数時間に必要なすべて。",
+          "href": "/guide/tatari-beginner-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "完全攻略",
+          "description": "すべての主要地点、錠前、物語の段階を順に辿る完全な事件ルート。",
+          "href": "/guide/tatari-guide"
+        },
+        {
+          "badge": "更新",
+          "title": "パズル解答",
+          "description": "環境パズルと施錠エリアの解答を、それぞれに必要な手がかりとともに。",
+          "href": "/guide"
+        },
+        {
+          "badge": "人気",
+          "title": "物語とエンディング",
+          "description": "ネタバレに配慮しつつ、行方不明キャンパー事件と調査の結末を見ていきます。",
+          "href": "/guide/tatari-evolution-guide"
+        },
+        {
+          "badge": "新着",
+          "title": "実績",
+          "description": "物語の功績から最難関の挑戦まで、すべての解除目標を難易度別に整理。",
+          "href": "/tier"
+        },
+        {
+          "badge": "新着",
+          "title": "証拠と手がかり",
+          "description": "事件を前進させる手がかりと、それぞれの発見場所。",
+          "href": "/mechanics"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Tatariとは？",
+      "paragraphs": [
+        "Tatariは、開発元Hidden Tower Studios、パブリッシャーTheGamesFortressによる一人称視点の心霊調査ホラーゲームです。プレイヤーは東京の探偵となり、失踪事件を調査するうちに、廃村、隠された手がかりの数々、そして眠り続けることを拒む日本の都市伝説へと引き込まれていきます。",
+        "2026年1月12日にPC向けにリリースされたTatariは、探索、環境パズル、証拠の追跡、超常的なホラーを融合させています。Tatari Wikiでは、攻略、パズル解答、手がかり資料、場所のメモ、実績のヒント、物語の解説をまとめて掲載し、見落としなく事件を完了できるよう支援します。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "Hidden Tower Studios"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "TheGamesFortress"
+        },
+        {
+          "label": "発売日",
+          "value": "2026年1月12日"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC / Steam"
+        },
+        {
+          "label": "ジャンル",
+          "value": "心霊ホラー"
+        },
+        {
+          "label": "実績",
+          "value": "25"
+        },
+        {
+          "label": "舞台",
+          "value": "東京と廃村"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Tatari Wikiを探索",
+      "description": "8つの主要モジュールが、Tatari Wikiの読者に必要なすべてを網羅します。完全攻略、パズル解答、初心者向け基本、証拠、場所、物語、実績、PC要件。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Tatari Wiki 完全攻略",
+          "description": "調査ルート、主要地点、パズル、錠前、証拠、事件を前進させる物語の段階を網羅する完全な進行攻略。",
+          "href": "/guide/tatari-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "東京に到着し、行方不明キャンパー事件を担当する。"
+            },
+            {
+              "label": "2",
+              "detail": "廃村を捜索し、最初に使える手がかりを見つける。"
+            },
+            {
+              "label": "3",
+              "detail": "環境パズルを解き、施錠されたエリアを開ける。"
+            },
+            {
+              "label": "4",
+              "detail": "証拠を追跡し、次の目的につなげる。"
+            },
+            {
+              "label": "5",
+              "detail": "危険地帯で超常的な遭遇を生き延びる。"
+            },
+            {
+              "label": "6",
+              "detail": "事件の核心にある都市伝説と対峙する。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Tatari Wiki パズルガイド",
+          "description": "本作の環境パズル、施錠エリア、手がかり、隠された情報の整理された解答。それぞれに必要な手がかりと解答手順を掲載。",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "錠前",
+              "detail": "すべての施錠された扉と、それを開く手がかり。"
+            },
+            {
+              "label": "神社",
+              "detail": "供え物の順序とタイミングが重要な儀式の場。"
+            },
+            {
+              "label": "秘密",
+              "detail": "次の一手を示す隠されたメモや物体。"
+            },
+            {
+              "label": "鍵",
+              "detail": "重要アイテムの入手場所と、それぞれが開けるもの。"
+            },
+            {
+              "label": "罠",
+              "detail": "進行を妨げる危険や誤った道。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Tatari Wiki 初心者ガイド",
+          "description": "基本の調査ループ、探索、証拠の記録、環境との対話、危険地帯への取り組み方を解説する初プレイヤー向けガイド。",
+          "href": "/guide/tatari-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "調査ループと基本操作を学ぶ。"
+            },
+            {
+              "label": "2",
+              "detail": "慎重に探索し、環境のヒントをすべて読む。"
+            },
+            {
+              "label": "3",
+              "detail": "証拠を記録し、手がかりを見失わない。"
+            },
+            {
+              "label": "4",
+              "detail": "危険地帯に入る前に適切なアイテムを持つ。"
+            },
+            {
+              "label": "5",
+              "detail": "廃村の前に何を優先すべきか決める。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Tatari Wiki 証拠ガイド",
+          "description": "調査中に見つかる重要な証拠と手がかり、それぞれの発見場所、そして事件の次段階をどう解放するかをまとめた資料。",
+          "href": "/mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "事件",
+              "detail": "調査の発端となる行方不明キャンパーの届け出。"
+            },
+            {
+              "label": "現場",
+              "detail": "廃村から回収された物的証拠。"
+            },
+            {
+              "label": "記録",
+              "detail": "次の場所を示す書き残された手がかりや記録。"
+            },
+            {
+              "label": "アイテム",
+              "detail": "別の手がかりと組み合わせて初めて意味を持つ物体。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tatari Wiki 場所一覧",
+          "description": "失踪事件を追う中で訪れる主要な場所の一覧。廃村を含め、それぞれに結びついた手がかり、パズル、危険を掲載。",
+          "href": "/modes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "東京",
+              "detail": "探偵の拠点であり、事件ファイルの出所。"
+            },
+            {
+              "label": "村",
+              "detail": "調査の中心にある廃村。"
+            },
+            {
+              "label": "神社",
+              "detail": "日本の都市伝説に結びついた儀式の場。"
+            },
+            {
+              "label": "トンネル",
+              "detail": "手がかりと超常的な脅威を隠す暗い道。"
+            },
+            {
+              "label": "古い家",
+              "detail": "パズルと証拠が詰まった重要な屋内地点。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Tatari Wiki ストーリーガイド",
+          "description": "調査の物語、行方不明キャンパー事件、廃村、そして日本の都市伝説とのつながりを、ネタバレに配慮したセクションとともに要約。",
+          "href": "/progression",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "概要",
+              "detail": "事件とその設定のネタバレなし要約。"
+            },
+            {
+              "label": "伝承",
+              "detail": "呪いの背景にある都市伝説と民俗学。"
+            },
+            {
+              "label": "時系列",
+              "detail": "最初の届け出から終幕までの事件の展開。"
+            },
+            {
+              "label": "エンディング",
+              "detail": "調査がどう決着するかの完全解説。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Tatari Wiki 実績",
+          "description": "本作の実績と解除方法の資料。コンプリート志向のプレイヤー向けにまとめつつ、メイン攻略は物語の進行に集中できるようにしています。",
+          "href": "/tier",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "最難関の遭遇とエンディングに結びついた最も難しい功績。"
+            },
+            {
+              "label": "A",
+              "detail": "物語の選択に依存する取り逃し可能な実績。"
+            },
+            {
+              "label": "B",
+              "detail": "村全体の探索と収集に関する実績。"
+            },
+            {
+              "label": "C",
+              "detail": "メインの事件を完了すると得られる物語実績。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Tatari Wiki 動作環境",
+          "description": "最小および推奨のPC要件、対応プラットフォーム情報、ストレージ容量、購入前に確認すべきその他の技術的詳細。",
+          "href": "/guide/tatari-upgrade-guide",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows PC、64ビット、Steam経由でプレイ。"
+            },
+            {
+              "label": "CPU",
+              "detail": "最小および推奨のプロセッサ目標。"
+            },
+            {
+              "label": "RAM",
+              "detail": "安定した調査に必要なメモリ。"
+            },
+            {
+              "label": "GPU",
+              "detail": "推奨体験のためのグラフィックカード目標。"
+            },
+            {
+              "label": "ストレージ",
+              "detail": "完全インストールに必要なディスク容量。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tatari Wiki よくある質問",
+      "description": "Tatari WikiとTatariの調査に関する、よくある質問への手早い回答。",
+      "items": [
+        {
+          "question": "Tatari Wikiとは何ですか？",
+          "answer": "Tatari Wikiは、Hidden Tower Studiosによる一人称視点の心霊調査ホラーゲーム『Tatari』のファン制作ガイドハブです。攻略、パズル解答、手がかり資料、物語の解説を一か所にまとめています。"
+        },
+        {
+          "question": "Tatari Wikiは公式ですか？",
+          "answer": "いいえ。Tatari Wikiはプレイヤーが制作したもので、Hidden Tower StudiosやTheGamesFortressとは提携していません。"
+        },
+        {
+          "question": "新規プレイヤーはTatari Wikiのどこから始めるべきですか？",
+          "answer": "まずTatari Wikiの初心者ガイドから始め、事件ルートは完全攻略を、行き詰まったときはパズルガイドを使ってください。"
+        },
+        {
+          "question": "Tatari Wikiは実績を扱っていますか？",
+          "answer": "はい。Tatari Wikiの実績モジュールは解除目標を難易度別に整理しているので、コンプリート志向のプレイヤーは何を優先すべきか分かります。"
+        },
+        {
+          "question": "Tatari Wikiには物語のネタバレがありますか？",
+          "answer": "Tatari Wikiのストーリーガイドはネタバレなしのセクションと完全解説のセクションに分かれているので、読みたい分だけ読めます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Tatariの謎を解き明かす準備はできましたか？",
+      "description": "最初の調査の一歩から最後の都市伝説の真相まで、コミュニティウィキが無料で最新の攻略、パズル解答、手がかりガイドでサポートします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Tatari ガイド",
+    "overviewDescription": "日本の呪い、供え物、釣りなどの基本と、怨霊を段階的に鎮める方法を扱う初心者向けTatariガイド。"
+  },
+  "characters": {
+    "overviewTitle": "Tatari キャラクター＆クリッター",
+    "overviewDescription": "Tatariの図鑑を構成する呪われたクリッター、進化、属性、レアリティ、ステータス、色違いを紹介。"
+  },
+  "progression": {
+    "overviewTitle": "Tatari 進行ガイド",
+    "overviewDescription": "Tatariの進化順序、進化の優先度、誰を進化させるか、最大レベルまでの進行ガイドで強化計画を立てましょう。"
+  },
+  "tier": {
+    "overviewTitle": "Tatari ティアリスト",
+    "overviewDescription": "進化、ホード、ゴールドラッシュ、水、第二ティアのTatariティアリストで最強の呪いユニットをランク付け。"
+  },
+  "modes": {
+    "overviewTitle": "Tatari ゲームモード",
+    "overviewDescription": "ホード、ホードインベージョン、ゴールドラッシュ、道場、ボスチャレンジの難易度ティアなど、Tatariのすべてのモードのガイド。"
+  },
+  "mechanics": {
+    "overviewTitle": "Tatari メカニクス",
+    "overviewDescription": "フォーメーションやパーティ編成からレベル上げ、ホード編成、ウィッシュボックスまで、Tatariの背後にあるシステムを理解。"
+  },
+  "codes": {
+    "overviewTitle": "Tatari コード",
+    "overviewDescription": "有効なTatariコードの検索、安全な引き換え方法、まだ有効な報酬の確認。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新",
+    "viewAllCodes": "すべてのコードを見る",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "ヘルプが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "ガイドはまだありません。しばらくしてから再度ご確認ください！",
+    "playOnSteam": "Steamでプレイ"
+  },
+  "footer": {
+    "aboutTitle": "Tatari Wiki",
+    "about": "Tatari Wikiは、日本の心霊探偵ホラーゲーム『Tatari』の完全攻略、パズル、手がかり、場所、実績、物語の詳細を網羅する、ファンが制作した独立系ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Tatari Wiki. Hidden Tower Studios ならびに TheGamesFortress とは提携していません。",
+    "description": "PCとSteamで展開する一人称視点の心霊調査ホラー。パズルを解き、手がかりを見つけ、日本の都市伝説を生き延びろ。",
+    "playGame": "Steamでプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "Tatari公式サイト",
+    "beginnerGuide": "初心者ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "characterGuides": "キャラクターガイド",
+    "tierLists": "ティアリスト",
+    "mechanicsGuides": "メカニクス"
+  }
+}
