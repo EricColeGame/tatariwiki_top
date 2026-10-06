@@ -27,9 +27,13 @@ export const siteConfig: SiteConfig = {
   tagline: "Walkthrough, Puzzles, Clues & Horror Guides",
   description: "Fan-made Tatari wiki covering the full walkthrough, puzzle solutions, clues, locations, achievements and story of the Japanese paranormal detective horror game.",
   url: siteUrl,
-  supportEmail: `support@${new URL(siteUrl).hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@tatariwiki.top",
   gameUrl: "https://store.steampowered.com/app/1847420/Tatari/",
-  heroVideoId: "ratWpxMwe2M", // Tatari gameplay walkthrough (full game, all puzzles)
+  heroVideoId: "yfzxoTHAMbM", // Tatari Steam Release Date Announcement Trailer (official, Hidden Tower Studios)
+  social: {
+    discord: "https://discord.com/game/tatari-the-arrival-1226184734019682365",
+    youtube: "https://www.youtube.com/@hiddentowerstudios4617",
+  },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
 };
