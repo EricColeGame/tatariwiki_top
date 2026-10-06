@@ -1,3 +1,5 @@
+import { locales } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -34,6 +36,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.com/game/tatari-the-arrival-1226184734019682365",
     youtube: "https://www.youtube.com/@hiddentowerstudios4617",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales,
   defaultLocale: "en",
 };
